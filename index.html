@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-12 text-center py-4 " id="header">
+                <h1 id="title">DISP<span style="color: rgba(72, 70, 70, 0.763);">.in</span>
+                </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-lg-8 col-md-8  col-sm-12 px-4 " id="leftmain">
+                <div id="todo">
+                    <div id="todotitle" class="row d-flex justify-content-center py-4" >
+                        <div class="col-10  " id="todoone">
+                            <h1 class="text-dark px-4 text-center py-4  text-dark" style="background-color: transparent ; font-size: 45px; font-weight: 700; ">TO-DO LIST</h1>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-9 "  id="todolist">
+                                <div class="input-group mb-3 py-4">
+                                    <span class="input-group-text" id="basic-addon1">To-do</span>
+                                    <input type="text" class="form-control rounded-end" id="todoinput" placeholder="Enter Task" aria-label="Username" aria-describedby="basic-addon1">
+                                    <button id="btnenter" class="m-2 rounded">ENTER TASK</button>
+                                   
+                                  </div>
+
+                                  <div class="row d-flex justify-content-center ">
+                                    <div class="col-10 bg-success" id="tasklist">
+                                
+                                    </div>
+                                  </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12  px-4 " >
+                <div id="cal">
+                    <div class="row d-flex justify-content-center py-5">
+                        <div class="col-6 d-flex flex-column justify-content-center rounded">
+                            <h1 style="font-size: 27px; font-style: italic;" class="py-4">REMEMBER THE DAY</h1>
+                            <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=Asia%2FKolkata&showPrint=0&showTitle=0&src=cml0aWt2ZXJtYXY1QGdtYWlsLmNvbQ&src=ZmFtaWx5MTE2NTY0MDUxNzA5NjQ0MDcxMzFAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IuaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTAyOTA5OTUxOTkzMzgzNjc2NTE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%23E67C73&color=%230B8043&color=%230B8043&color=%23c26401" style="border:none 1px #777" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="project.js"></script>
+</body>
+</html>
