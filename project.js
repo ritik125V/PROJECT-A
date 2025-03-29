@@ -30,7 +30,7 @@ btnenter.addEventListener('click' , (e)=>{
     arr.push(newtask)
     savetask()
     rendertask(newtask)
-    inputvalue ""
+    inputvalue = ""
     
     
     
