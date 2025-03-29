@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 #header{
     background-color: rgb(239, 239, 239);
     height: 100px;
@@ -6,19 +9,44 @@
     border-width: 0.5px;
 }
 #title{
+    position: relative;
     font-size: 50px;
     
     font-weight: bold;
     font-style: italic;
     color: rgb(22, 22, 22);
+    animation-name: down;
+    animation-name: new;
+    animation-duration: 2s;
 }
+/* @keyframes new {
+    from{
+        top: 0px;
+
+    }
+    to{
+        top: 10px;
+    
+    }
+
+    
+}
+@keyframes down {
+    from{
+        color: rgb(146, 146, 146);
+    }
+    to{
+       color: black;
+    }
+    
+} */
 #todo{
     height: 100vh;
     background-color: rgb(239, 239, 239);
     border-radius: 10px;
     margin: 5px;
-    background-image: url("mountains.jpeg");
-    background-size: cover;
+    
+    
 
 }
 #cal{
@@ -32,7 +60,7 @@
     background: transparent;
     
 }
-.inputtext{
+.inputtext{ 
     color: rgb(0, 0, 0);
     font-size: 18px;
     margin-bottom: 5px;
@@ -56,8 +84,9 @@
     border-width: 0.5px;
     background-color: rgb(239, 239, 239);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
     align-items: center;
 }
 ul{
@@ -68,11 +97,11 @@ ul{
     background-color: transparent;
 }
 
-#btnenter{
+/* #btnenter{
     border: none;
     border-radius: 0px;
     width: 100px;
     height: 40px;
     background-color: black;
     color: aliceblue;
-}
+} */
