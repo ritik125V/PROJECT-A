@@ -29,8 +29,9 @@ btnenter.addEventListener('click' , (e)=>{
     
     arr.push(newtask)
     savetask()
-    console.log()
     rendertask(newtask)
+    inputvalue ""
+    
     
     
 })
